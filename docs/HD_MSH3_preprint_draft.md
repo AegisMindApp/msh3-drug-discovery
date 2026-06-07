@@ -2,7 +2,7 @@
 
 **Authors:** John Goodman  
 **Affiliation:** AegisMind Research  
-**Correspondence:** john.goodman@oceansparx.com  
+**Correspondence:** john.goodman@solver.press  
 
 ---
 

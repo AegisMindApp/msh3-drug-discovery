@@ -2,6 +2,17 @@
 
 All large data files (docking scores, surrogate models, raw results) are stored in Google Cloud Storage (GCS) for reproducibility and to keep the GitHub repository lightweight.
 
+## ⚠️ Authentication Required
+
+**To access GCS data, you must have:**
+1. Google Cloud SDK installed (`gsutil` CLI tool)
+2. Valid credentials with read access to `aegismind-tpu-results` bucket
+3. Contact john.goodman@solver.press to request access
+
+If you do not have credentials, we recommend:
+- Contacting the authors for direct file transfers
+- Requesting a Zenodo mirror of the dataset (see DOI below)
+
 ## Storage Location
 
 **GCS Base Path**: `gs://aegismind-tpu-results/aegis_flashoptim/`
@@ -105,7 +116,7 @@ gcloud auth login
 gsutil ls gs://aegismind-tpu-results/aegis_flashoptim/
 ```
 
-If you do not have credentials, request access from: **john.goodman@oceansparx.com**
+If you do not have credentials, request access from: **john.goodman@solver.press**
 
 ---
 

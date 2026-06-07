@@ -65,7 +65,7 @@ Sincerely,
 
 **John Goodman**  
 AegisMind Research  
-john.goodman@oceansparx.com
+john.goodman@solver.press
 
 ---
 
@@ -114,7 +114,7 @@ john.goodman@oceansparx.com
 
 **Data:** All results public; seeking EHDN-led experimental validation
 
-**Contact:** john.goodman@oceansparx.com | https://github.com/AegisMindApp/precision-tetrahedron
+**Contact:** john.goodman@solver.press | https://github.com/AegisMindApp/precision-tetrahedron
 
 ---
 
@@ -126,7 +126,7 @@ john.goodman@oceansparx.com
 
 **John Goodman**  
 *AegisMind Research, Melbourne, Australia*  
-Corresponding Author | john.goodman@oceansparx.com | +[Phone if available]
+Corresponding Author | john.goodman@solver.press | +[Phone if available]
 
 **Contributions:**
 - Conceived study; designed computational pipeline
@@ -710,7 +710,7 @@ Corresponding Author | john.goodman@oceansparx.com | +[Phone if available]
 *Multi-Target Computational Drug Discovery Identifies FDA-Approved MSH3 ATPase Inhibitors as Candidates for Huntington's Disease Somatic Repeat Expansion Suppression*
 
 **Principal Investigator:**  
-John Goodman, AegisMind Research, john.goodman@oceansparx.com
+John Goodman, AegisMind Research, john.goodman@solver.press
 
 **Project Category:**  
 ☒ Drug discovery / repositioning  

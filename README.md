@@ -182,7 +182,7 @@ MIT License — see LICENSE file for details.
 ## Contact & Collaboration
 
 **Author**: John Goodman  
-**Email**: john.goodman@oceansparx.com  
+**Email**: john.goodman@solver.press  
 **Organization**: AegisMind Research
 
 We explicitly welcome collaboration with experimental validation groups, clinical researchers, and EHDN member labs. Please reach out for:
