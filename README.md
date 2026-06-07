@@ -31,7 +31,7 @@ Alternative kinase inhibitors (**PONATINIB**, **ENTRECTINIB**, **IMATINIB**) off
 ├── phase42_multi_target_bo.py        # Multi-target Bayesian optimization
 │
 ├── docs/
-│   ├── HD_MSH3_preprint_draft.md     # Full manuscript (8,500 words, EHDN-formatted)
+│   ├── HD_MSH3_preprint.md     # Full manuscript (8,500 words, EHDN-formatted)
 │   ├── EHDN_SUBMISSION_PACKAGE.md    # Complete EHDN submission requirements
 │   ├── figures/
 │   │   ├── Figure1_MSH3_Structure.png        # MSH3 structure + top 3 docking poses

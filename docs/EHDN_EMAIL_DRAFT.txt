@@ -36,7 +36,7 @@ EXPECTED OUTCOME:
 Identification of lead compound(s) with sub-micromolar MSH3 affinity, enabling rapid advancement to cell-based CAG repeat expansion assays and preclinical PK/PD studies.
 
 ATTACHED MATERIALS:
-- HD_MSH3_preprint_draft.pdf (8,500-word manuscript with DOI: [pending Zenodo submission])
+- HD_MSH3_preprint.pdf (8,500-word manuscript with DOI: [pending Zenodo submission])
 - Four publication-quality figures (300 dpi PNG)
 - GitHub repository with all code and data manifest
 - GCS data links for docking scores and surrogate models

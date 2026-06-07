@@ -11,7 +11,7 @@ The manuscript currently lacks a Digital Object Identifier (DOI). Here are three
 2. Sign in with GitHub or ORCID
 3. Click "New Upload" → "Publish"
 4. Upload:
-   - `HD_MSH3_preprint_draft.pdf`
+   - `HD_MSH3_preprint.pdf`
    - `Figure1_MSH3_Structure.png`
    - `Figure2_Nash_Heatmap.png`
    - `Figure3_ThreeWayConvergence.png`
@@ -56,7 +56,7 @@ The manuscript currently lacks a Digital Object Identifier (DOI). Here are three
 
 1. **Update manuscript**:
    ```latex
-   % In HD_MSH3_preprint_draft.tex, add near title:
+   % In HD_MSH3_preprint.tex, add near title:
    DOI: 10.5281/zenodo.XXXXXXX
    ```
 
