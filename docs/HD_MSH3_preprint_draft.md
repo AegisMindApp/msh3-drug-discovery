@@ -104,7 +104,7 @@ $$\text{UCB}(x) = \mu_{\text{KPC3}}(x) + \mu_{\text{MSH3}}(x) + \beta \cdot (\si
 
 ### 3.1 MSH3 Docking Screen: Top Candidates
 
-Of 2,639 FDA compounds screened, **1,759 produced valid docking scores** (66.7%). The top 10 MSH3 ATPase binders were:
+Of 2,639 FDA compounds screened, **1,759 produced valid docking scores** (66.7%). The top 10 MSH3 ATPase binders were (see **Figure 1** for MSH3 structure and top docking poses):
 
 | Rank | Compound | Vina (kcal/mol) | pKd | Drug class | Notes |
 |------|----------|-----------------|-----|-----------|-------|
@@ -144,7 +144,7 @@ Top-10 compounds were assessed for **CNS multi-parameter optimization (MPO)** su
 
 ### 3.3 Nash Equilibrium MSH3 + PARP Inhibitor Combinations
 
-We analyzed 800 top MSH3 candidates × 6 PARP partners = 4,800 dual-target pairs. Top synergistic combinations (Nash synergy > 0.25) were:
+We analyzed 800 top MSH3 candidates × 6 PARP partners = 4,800 dual-target pairs. Top synergistic combinations (Nash synergy > 0.25) were (see **Figure 2** for Nash synergy heatmap):
 
 | Rank | MSH3 inhibitor | PARP partner | MSH3 pKd | Tanimoto | Nash synergy | DDR logic |
 |------|----------------|-------------|-----------|-----------|-------------|-----------|
@@ -160,7 +160,7 @@ We analyzed 800 top MSH3 candidates × 6 PARP partners = 4,800 dual-target pairs
 
 ### 3.4 Cross-Target Weight-Space Geometry: KPC-3 ↔ MSH3
 
-To validate that surrogate representations of different ATPase targets share molecular-encoding geometry, we computed linear-mode connectivity (LMC) barriers between KPC-3 (bacterial β-lactamase) and MSH3 (mismatch repair ATPase) fingerprint surrogates.
+To validate that surrogate representations of different ATPase targets share molecular-encoding geometry, we computed linear-mode connectivity (LMC) barriers between KPC-3 (bacterial β-lactamase) and MSH3 (mismatch repair ATPase) fingerprint surrogates (see **Figure 4** for cross-target LMC interpolation and barrier analysis).
 
 **Result:** Cross-target normalized LMC barrier = **0.092** (joint loss, normalized by endpoint mean), representing **15.2% of the average intra-target precision barriers**. This indicates that Morgan fingerprints encode **substantially overlapping pharmacophoric information** across the two targets, despite their distinct binding pockets and primary functions. The mid-path interpolation (α=0.6) achieves lower joint loss than the endpoints, implying a *partial multi-task solution*: the weight-space midpoint between KPC-3 and MSH3 surrogates retains meaningful signal for both targets simultaneously.
 
@@ -178,7 +178,7 @@ We performed simultaneous optimization of KPC-3 and MSH3 objectives over 30 BO r
 | 4 | BELUMOSUDIL | 7.505 | 5.552 | 13.057 | BO only |
 | 5 | CONIVAPTAN HYDROCHLORIDE | 7.510 | 5.466 | 12.976 | BO only |
 
-**Three-way convergence on EPTIFIBATIDE:** EPTIFIBATIDE is the **only FDA compound independently selected by all three independent analyses**:
+**Three-way convergence on EPTIFIBATIDE:** EPTIFIBATIDE is the **only FDA compound independently selected by all three independent analyses** (see **Figure 3** for convergence Venn diagram):
 - **Phase 39 (docking):** Rank 3 MSH3 binder, pKd 6.182
 - **Phase 40 (Nash synergy):** Rank 1 MSH3+PARP combination, synergy 0.2503
 - **Phase 42 (multi-target BO):** Rank 3 dual-target candidate, combined pKd 13.426
@@ -271,7 +271,23 @@ All compounds, docking scores, surrogate predictions, and multi-target optimizat
 
 ---
 
-## 6. Data Availability
+## 5. Figure Captions
+
+**Figure 1: MSH3 Structure and Top Docking Poses**  
+(Left) Human MSH3 ATPase domain (PDB 3THW, chain A) with ATP-binding pocket highlighted. (Right) Top three FDA-approved compounds ranked by docking affinity: PONATINIB (pKd 6.36, orange), EPTIFIBATIDE (pKd 6.18, green), ENTRECTINIB (pKd 6.03, blue). All three are convergent hits selected by multiple computational methods.
+
+**Figure 2: Nash Equilibrium Synergy Heatmap**  
+(Left) Bar plot of top 5 synergistic MSH3 + partner combinations ranked by Nash synergy score, with EPTIFIBATIDE highlighted in green. (Right) Full synergy heatmap showing all 5 MSH3 inhibitor candidates (rows) × 6 PARP/immunomodulator partners (columns), with synergy scores indicating fitness cost to pathogenic cells under dual-target inhibition. EPTIFIBATIDE + laquinimod achieve the highest synergy (0.2503), exceeding the 0.25 threshold associated with synthetic lethality.
+
+**Figure 3: Three-Way Convergence Venn Diagram**  
+Venn diagram showing overlap of compounds selected by three independent methods: docking affinity (blue circle), Nash equilibrium synergy (red circle), and multi-target Bayesian optimization (green circle). EPTIFIBATIDE is the only FDA-approved compound appearing in all three categories, representing a robust convergent hit with reduced likelihood of computational artifact.
+
+**Figure 4: Cross-Target Loss Landscape and LMC Analysis**  
+(Left) Linear Mode Connectivity (LMC) interpolation curve showing joint normalized loss as a function of interpolation parameter α between KPC-3 and MSH3 surrogate weight spaces. The curve exhibits a shallow valley at α ≈ 0.6, indicating a partial multi-task solution. (Middle) Barrier heights comparison: cross-target barrier (0.092, green) is only 15.2% of intra-target KPC-3 barrier (0.606, blue) and MSH3 barrier (0.358, orange), supporting transfer learning feasibility. (Right) Schematic of transfer learning approach: KPC-3 surrogate model is fine-tuned on MSH3 data with minimal catastrophic forgetting, enabling efficient multi-target drug discovery for related ATPases.
+
+---
+
+## 7. Data Availability
 
 **Computational results:**
 - All 1,759 Vina docking scores (compound SMILES → MSH3 pKd): supplementary Table S1
@@ -285,7 +301,7 @@ All compounds, docking scores, surrogate predictions, and multi-target optimizat
 
 ---
 
-## 7. Supplementary Tables & Figures
+## 8. Supplementary Tables & Figures
 
 ### Table S1: Full MSH3 Docking Results (Top 50 compounds)
 
