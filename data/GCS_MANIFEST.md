@@ -105,7 +105,7 @@ gcloud auth login
 gsutil ls gs://aegismind-tpu-results/aegis_flashoptim/
 ```
 
-If you do not have credentials, request access from: **trading.john@gmail.com**
+If you do not have credentials, request access from: **john.goodman@oceansparx.com**
 
 ---
 

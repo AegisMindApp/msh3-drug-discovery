@@ -2,7 +2,7 @@
 
 **Authors:** John Goodman  
 **Affiliation:** AegisMind Research  
-**Correspondence:** trading.john@gmail.com  
+**Correspondence:** john.goodman@oceansparx.com  
 
 ---
 
