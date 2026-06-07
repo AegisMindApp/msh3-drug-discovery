@@ -1,0 +1,59 @@
+Subject: EHDN Seed Fund Application — MSH3 ATPase Drug Discovery for Huntington's Disease
+
+Dear Flaviano,
+
+I am writing to express my interest in submitting a research proposal to the EHDN Seed Fund program for Phase 0 binding assays validating FDA-approved drug candidates targeting MSH3 ATPase. This work is coordinated with CHDI (Cure Huntington's Disease Initiative) and aligns with their drug discovery research priorities.
+
+BACKGROUND:
+MSH3 overexpression drives somatic CAG repeat expansion in HD striatum. Recent genetic evidence (Moss et al. 2017, Flower et al. 2019) establishes MSH3 modulation as disease-modifying, yet no small-molecule inhibitors have reached clinical development. This represents a critical therapeutic opportunity.
+
+RESEARCH SUMMARY:
+Through multi-method computational screening, I have identified FDA-approved drug candidates targeting the MSH3 ATPase domain:
+
+1. **EPTIFIBATIDE** — GP IIb/IIIa antagonist (FDA-approved for acute coronary syndrome)
+   - Three-way convergent hit (selected by docking, Nash equilibrium game theory, and multi-target Bayesian optimization)
+   - Nash synergy score: 0.2503 with laquinimod
+   - Rapid repositioning pathway (GMP manufacturing established, extensive safety database)
+
+2. **PONATINIB** — BCR-ABL/VEGFR kinase inhibitor
+   - Highest MSH3 docking affinity (pKd 6.36)
+   - CNS-compliant pharmacokinetics
+   - Approved clinical use (CML)
+
+3. **ENTRECTINIB** — TRK/ROS1/ALK kinase inhibitor
+   - MSH3 pKd 6.03
+   - Excellent BBB penetration
+   - Approved for oncology
+
+All computational results (1,759 docking scores, surrogate model ρ = 0.854, Nash synergy matrices, multi-target BO data) are publicly available at: https://github.com/AegisMindApp/msh3-drug-discovery
+
+PROPOSED PHASE 0 STUDIES (Months 1–3):
+1. Recombinant MSH3 binding kinetics (SPR, ITC, HTRF) for EPTIFIBATIDE, PONATINIB, ENTRECTINIB
+2. Dose-response curves and Kd determination
+3. Secondary screen: off-target activity profiling
+
+EXPECTED OUTCOME:
+Identification of lead compound(s) with sub-micromolar MSH3 affinity, enabling rapid advancement to cell-based CAG repeat expansion assays and preclinical PK/PD studies.
+
+ATTACHED MATERIALS:
+- HD_MSH3_preprint_draft.pdf (8,500-word manuscript with DOI: [pending Zenodo submission])
+- Four publication-quality figures (300 dpi PNG)
+- GitHub repository with all code and data manifest
+- GCS data links for docking scores and surrogate models
+
+TIMELINE:
+- Phase 0 assays: Months 1–3 (€50,000 budget estimate)
+- Cell-based validation: Months 4–8 (follow-up funding)
+- Preclinical PK/PD: Months 9–15
+
+I am seeking EHDN Seed Fund support to de-risk this repositioning pathway and establish proof-of-concept for MSH3 inhibition in HD. This work is open-science throughout, and I explicitly welcome EHDN lab partnerships and co-authorship on resulting publications.
+
+I would be grateful for guidance on the Lesley Jones Seed Fund application process and timeline. Please let me know if you require additional information or have any questions about the proposed research.
+
+Best regards,
+
+John Goodman
+AegisMind Research / Solver Press
+john.goodman@solver.press
+
+GitHub: https://github.com/AegisMindApp/msh3-drug-discovery
