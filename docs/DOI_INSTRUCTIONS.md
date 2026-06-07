@@ -29,16 +29,21 @@ The manuscript currently lacks a Digital Object Identifier (DOI). Here are three
 
 ---
 
-## Option 2: medRxiv / bioRxiv
-**Advantages**: Discipline-specific preprint servers, widely cited  
-**Time**: 1–2 days (peer review of submission)
+## Option 2: arXiv (Computational + Biology Track)
+**Advantages**: No review, instant publication, widely recognized in computational science  
+**Time**: Immediate (automated processing)
+**Note**: Better than medRxiv/bioRxiv for computational + game-theory work
 
 ### Steps:
-1. Go to https://www.medrxiv.org/ (for medical/biomedical research)
-2. Click "Submit"
-3. Create account, upload PDF + metadata
-4. Wait for acceptance (typically < 24 hrs)
-5. Get DOI automatically assigned
+1. Go to https://arxiv.org/
+2. Create account
+3. Select category: **cs.AI** (machine learning) or **q-bio.CB** (computational biology)
+4. Upload PDF + metadata
+5. Get arXiv ID + permanent URL within hours (can register DOI separately via Crossref)
+
+**Alternative if you prefer biology-specific servers:**
+- **bioRxiv** (https://www.biorxiv.org/) — BUT check their scope first; they may reject computational-only work
+- **medRxiv** (https://www.medrxiv.org/) — Clinical medicine focus; likely to reject game-theory papers
 
 ---
 
@@ -77,7 +82,14 @@ The manuscript currently lacks a Digital Object Identifier (DOI). Here are three
 ---
 
 ## Recommended Action:
-**Use Zenodo** — it's the fastest (5 min), free, and gives your work permanent visibility in the open science community. This strengthens your EHDN Seed Fund application by demonstrating open-science commitment.
+**Use Zenodo** — it's the best choice for this work because:
+- ✅ Accepts computational + experimental hybrid papers (medRxiv/bioRxiv would likely reject)
+- ✅ Fastest (5 minutes)
+- ✅ Free with permanent archival
+- ✅ High visibility in open science community
+- ✅ Strengthens EHDN Seed Fund application
+
+**Why not arXiv?** While arXiv accepts computational work, Zenodo's focus on research reproducibility (data + code) is better aligned with your GitHub repo + GCS data strategy.
 
 Once you get your DOI:
 - Email john.goodman@solver.press with "DOI: [number]"
