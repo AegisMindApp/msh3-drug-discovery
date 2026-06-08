@@ -169,7 +169,24 @@ This computational study is submitted to the **EHDN (European Huntington's Disea
 
 If using this data or code, please cite:
 
-> Goodman, J. (2026). Multi-target computational drug discovery identifies FDA-approved MSH3 ATPase inhibitors as candidates for Huntington's disease. *EHDN Research Program Submission*.
+**DOI**: 10.5281/zenodo.20586369
+
+**Standard Citation:**
+> Goodman, J. (2026). Multi-target computational drug discovery identifies FDA-approved MSH3 ATPase inhibitors as candidates for Huntington's disease. Zenodo. https://doi.org/10.5281/zenodo.20586369
+
+**APA:**
+Goodman, J. (2026). Multi-target computational drug discovery identifies FDA-approved MSH3 ATPase inhibitors as candidates for Huntington's disease. *Zenodo*. https://doi.org/10.5281/zenodo.20586369
+
+**BibTeX:**
+```bibtex
+@misc{goodman2026msh3,
+  author = {Goodman, John},
+  title = {Multi-target computational drug discovery identifies {FDA}-approved {MSH}3 {ATPase} inhibitors as candidates for {H}untington's disease},
+  year = {2026},
+  doi = {10.5281/zenodo.20586369},
+  url = {https://zenodo.org/record/20586369}
+}
+```
 
 ---
 

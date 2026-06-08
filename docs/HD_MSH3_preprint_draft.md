@@ -3,6 +3,7 @@
 **Authors:** John Goodman  
 **Affiliation:** AegisMind Research  
 **Correspondence:** john.goodman@solver.press  
+**DOI:** 10.5281/zenodo.20586369  
 
 ---
 
